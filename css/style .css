@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2? family=Nunito&family=Nunito&display=swap");
+
+*{
+   padding:0;
+   margin: 0;
+   box-sizing: border-box;
+} 
+
+body{
+   font-family: 'Nunito' sans-serif;
+   max-width: 100vh;
+   background-color:black;
+   flex-wrap: wrap;
+}
+main{
+    flex-wrap: wrap;
+}
+.nav-container{
+   background-color: #000;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 2rem;
+   font-size: 25px;
+   width: 100rem;
+}
+
+
+.right-side, .left-side{
+   list-style-type: none;
+}
+.right-side li a{
+    font-size: bolder;
+    margin-bottom:3rem ;
+    margin-right: 8rem;
+    margin-top: rem;
+    background-color: black;
+}
+
+.left-side{
+    margin-left: 9rem;
+    
+}
+.right-side {
+    margin-left: 60rem;
+}
+.right-side li, .left-side li{
+   display:inline-block;
+}
+
+
+
+.right-side li a, .left-side li a{
+   text-decoration: none;
+   display:block;
+   width:100%;
+   height: 100%;
+   font-size:14px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color:white;
+   padding: 14px 16px;
+   font-weight:lighter;
+}
+
+.right-side  li a, .left-side  li a{
+   text-decoration: none;
+   display: block;
+   width: 100%;
+   height: 100%;
+}
+
+.box{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color:#e31e3c ;
+}
+
+
+
+img{
+    margin-right: 0;
+    justify-content: center;
+    margin-left: 6rem;
+}
+
+.wrapper{
+    color: white;
+    margin-left: 15rem;
+    margin-bottom: 4rem;
+    font-size: 100px;
+    background-color: black;
+    width: 50rem;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.section-wrapper{
+    color: white;
+    background-color: black;
+    margin-left: 10rem;
+    margin-top: 4rem;
+    width: 55.6rem;
+}
+
+.wrapper2{
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    width: 59rem;
+
+}
+
+h1{
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 18px;
+    color: grey;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+h3{
+    margin: 0.8rem;
+    color: white;
+}
+
+p{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr{
+    margin-left: 10rem;
+    margin-top: 4rem;
+    width: 65rem ;
+}
+
+.box1{
+    width: 15rem;
+    height: 20rem;
+    background-color: black;
+    margin-left: 35rem;
+ 
+}
+.box2{
+    width: 15rem;
+    height: 20rem;
+    background-color: black;
+    margin-left: 50rem;
+    margin-top: -20.9rem;
+}
+
+.section h1{
+    font-size: 45px;
+    color: white;
+    margin-left: 10rem;
+    margin-top:4rem;
+}
+
+.section h1:hover ,animate{
+    transform: translateY(5%);
+    transition: all 0.5s ease-in-out;
+}
+
+h5{
+    margin-left: 10rem;
+    margin-top: -1rem;
+    color: #e31e3c; 
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imgbx{
+    float: left;
+    margin-left: 30rem;
+    margin-top: -6rem;
+}
+.imgbox{
+    float: left;
+    margin-left: 30rem;
+    margin-top: -6rem;
+}
+.imgtwitt{
+    float: left;
+    margin-left: 30rem;
+    margin-top: -6rem;
+}
+
+
+    
+    .left-link,
+    .right-link {
+        padding: 5px;
+    }
+
+    .left-link{
+        margin-left: 10rem;
+        margin-top: 1.0rem;
+    }
+    .right-link{
+        margin-right: rem;
+        margin-top: 1rem;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+        transform: translateY(4%);
+        transform: all 0.3s ease-in-out;
+    }
+
+    footer{
+        margin-top: 8rem;
+        background-color: #e31e3c;
+        height: 5rem;
+        padding: 2rem;
+        text-decoration: none;
+        color: white;
+    
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        margin: rem;
+    }
+    
+    
+        footer {
+            background-image: linear-gradient(to right, #e31e3c, black);
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            left:0 ;
+            height: 4rem;
+            width: 80rem;
+            margin-left: 5rem;
+            margin-right: 2.5rem;
+    
+        }
+
+     
